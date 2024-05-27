@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/data-table" style="font-size: 30px;">Tabella Dati</router-link>
+      <router-link to="/Tabella" style="font-size: 30px;">Tabella Dati</router-link>
     </nav>
     <nav>
-      <router-link to="/Chart" style="font-size: 30px;">Grafico</router-link>
+      <router-link to="/Grafico" style="font-size: 30px;">Grafico</router-link>
     </nav>
     <router-view/>
   </div>

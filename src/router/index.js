@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import DataTable from '@/views/DataTable.vue'
-import Chart from '@/views/Chart.vue'
+import Tabella from '@/views/Tabella.vue'
+import Grafico from '@/views/Grafico.vue'
 
 const routes = [
   {
-    path: '/data-table',
-    name: 'data-table',
-    component: DataTable
+    path: '/Tabella',
+    name: 'Tabella',
+    component: Tabella
   },
   {
-    path: '/Chart',
-    name: 'Chart',
-    component: Chart
+    path: '/Grafico',
+    name: 'Grafico',
+    component: Grafico
   }
 ]
 
